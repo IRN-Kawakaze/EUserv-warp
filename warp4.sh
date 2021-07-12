@@ -8,4 +8,5 @@ cp wireguard-go /usr/bin
 cp wgcf /usr/local/bin/wgcf
 chmod 755 /usr/local/bin/wgcf
 chmod 755 /usr/bin/wireguard-go
+sha256sum /usr/local/bin/wgcf /usr/bin/wireguard-go
 wgcf register
